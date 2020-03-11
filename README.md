@@ -7,12 +7,10 @@ automatically.
 
 # Output
 
-| Disc Type | Output            | Tools used            |
-| --------- | ----------------- | --------------------- |
-| CD        | MP3 and FLAC      | Ripit (lame and flac) |
-| Data-Disk | Uncompressed .ISO | ddrescue              |
-| DVD       | MKV               | MakeMKV               |
-| BluRay    | MKV               | MakeMKV               |
+| Disc Type | Output | Tools used |
+| --------- | ------ | ---------- |
+| DVD       | MKV    | MakeMKV    |
+| BluRay    | MKV    | MakeMKV    |
 
 **To properly detect optical disk types in a docker environment this script
 relies on makemkvcon output.**
